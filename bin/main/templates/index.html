@@ -1,154 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <titile></titile>
-    <style>
-       
-        #columns{
-        max-width: 75%;
-        
-        column-count: 2;
-       
-        
-        column-gap: 15px;
-        height: 100%;
-        
-        }
-        /* 사진 글 감싸는 */
-        #columns figure{
-        display: inline-block;
-        border:1px solid rgba(0,0,0,0.2);
-        margin:0;
-        margin-bottom: 15px;
-        padding:10px;
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
-        height:450px;
+<style>
+    body {
+        margin: 0;
+    }
+    
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    #navi {
+        position: fixed;
         width: 100%;
-       
-        }
-        #columns figure img{
-        width:100%;
-        height:100%;
-        }
-        #columns figure figcaption{
-        border-top:1px solid rgba(0,0,0,0.2);
-        padding:10px;
-        margin-top:11px;
-        height : 20px;
-        }
+        height: 50px;
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        * {
-  box-sizing: border-box;
-}
+    #navi .navi_items {
+        padding: 10px;
+    }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+    header {
+        height: 100px;
+    }
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-#whole_div{
-    
-}
+    footer {
+        height: 150px;
+        background-color: rgb(242, 242, 242);
+    }
 
-/* Create two columns/boxes that floats next to each other */
-#left_div{
+    #contents {
+        display: flex;
+    }
 
-  
-  /* height: 300px; only for demonstration, should be removed */
-  width:25%;
-  background-color: #f1f1f1;
-  padding: 20px; 
- 
-  column-gap: 15px;
-}
-#right_div{
-    width:25%;
-  background-color: #f1f1f1;
-  padding: 20px; 
- 
-  column-gap: 15px;
-    
-}
+    #members {
+        width: 80%;
+        margin: 0 auto;
+        /* column-count: 2; */
+        column-width: 300px;
+        column-gap: 10px;
+    }
+    #members figure {
+        width: 300px;
+        height: 340px;
+        margin-bottom: 45px;
+        display: inline-block;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
 
-/* Style the list inside the menu */
+    #members figure img {
+        width: 100%;
+        height: 100%;  
+    }
 
-
-
-
-
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-    </style>
+</style>
+<head>
+    <title>JSBH</title>
 </head>
-    <body >
-        <header>
-            welcome to COEX LOOP TOP Family
-        </header>
-            <div id="whole_div" class="w3-row">
-            <div id="left_div" class="w3-col m3"><p>삼성</p>
-            <ul><li>when your mouse  hover the pictures ,each portpolio summary will be appeared </li>
-                <li>alright</li>
-            </ul>
-            </div>
-                
-            <div id="columns" class="w3-col m6">
-                <figure>
-                    <img id="minje" src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg" >
-                    <figcaption>Cinderella</figcaption>
-                </figure>
-            
-                <figure>
-                    <img id="heedu" src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rapunzel.jpg">
-                    <figcaption>Rapunzel</figcaption>
-                </figure>
-            
-                <figure>
-                    <img id="gwanyoon" src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/belle.jpg">
-                    
-                    <figcaption>Belle</figcaption>
-                </figure>
-            
-                <figure >
-                    <img id="sunghoon" src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mulan_2.jpg">
-                    <figcaption>Mulan</figcaption>
-                </figure>
-            
-                <figure>
-                    <img id="hyunwoo" src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sleeping-beauty.jpg">
-                    <figcaption>Sleeping Beauty</figcaption>
-                </figure>
-            
-        
-            </div>
-            <div id="right_div" class="w3-col m3"><p>봉은사</p></div>
-        </div>
-      
+<body>
+    <div id="navi">
+        <p class="navi_items">準備中</p>
+        <p class="navi_items">準備中</p>
+        <p class="navi_items">準備中</p>
+        <p class="navi_items">準備中</p>
+        <p class="navi_items">準備中</p>
     </div>
+    <div id="container">
+        <header>
+        </header>
+        
+        <section id="contents">
+            <div id="left_aside"></div>
+        
+            <div id="members">
+                <figure>
+                    <img src="minSen.jpeg">
+                </figure>
+                <figure>
+                    <img src="shirokuma.jpeg">
+                </figure>
+                <figure>
+                    <img src="shirokuma.jpeg">
+                </figure>
+                <figure>
+                    <img src="shirokuma.jpeg">
+                </figure>
+                <figure>
+                    <img src="shirokuma.jpeg">
+                </figure>
+            </div>
+
+            <div id="right_aside"></div>
+        </section>
+        
+        
         <footer>
-                <p>starfiled</p>
         </footer>
-    </body>
+    </div>
+</body>
 </html>
