@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>minSen_juku</title>
+</head>
+<style>
+    
+    body {
+        margin: 0;
+    }
+    
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #container_header {
+    }
+
+    #container_section {
+        display: flex;
+    }    
+    section nav {
+        flex-basis: 15%;
+        flex-shrink: 0;
+        background: #FAFAFA;
+        padding: 20px 30px;
+    }
+    section nav header {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0.5em;
+        padding-bottom: 10px;
+    }
+    section nav ul {
+        list-style-type: none;
+        /* line-height: 1.5; */
+        /* font-size: 12px; */
+        padding: 10px;
+        letter-spacing: 1px;
+    }
+    section nav ul li{
+        border-bottom: 1px solid #e6e6e6;
+    }
+    section nav ul li a{
+        padding: 10px;
+    }
+
+    section nav ul li a:link {text-decoration: none; color: inherit;}
+    section nav ul li a:visited {text-decoration: none; color: inherit;}
+
+    section main {
+        flex-basis: 70%;
+        padding: 35px 30px 0;
+        border-right: 1px solid #e6e6e6;
+    }
+
+    #terminal {
+        background-color: black;
+        width: 45em;
+        max-width: 85%;
+        padding: 1em;
+        border-radius: 1em;
+    }
+    .terminal_stoplight {}
+
+    .red {
+        background: #fe625d;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 1em;
+    }
+    .yellow {
+        background: #ffc146;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 1em;
+        margin-left: .75em;
+    }
+    .green{ 
+        background: #2fc950;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 1em;
+        margin-left: .75em;
+    }
+
+    .sample_code {
+        color: white;
+        font-size: large;
+        font-weight: 500;
+        font-family: Roboto Mono,monospace;
+        padding: 0 .75em;
+        letter-spacing: 0.1em;
+    }
+    .keyword { color: #ea80fc;}
+    .string { color: #ff80ab;}
+    .function { color: #80d8ff; }
+
+    .sample_code pre {
+        margin: 1em 0px;
+    }
+
+    section aside {
+        flex-basis: 15%;
+        flex-shrink: 0;
+    }
+
+
+</style>
+<body>
+    <div id="container">
+        <header id="container_header">
+        </header>
+    
+        <section id="container_section">
+            <nav>
+                <header id="nav_header">
+                    <h1>
+                        MIN塾
+                    </h1>
+                </header>
+
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>
+                        <a href="#">Swift</a>
+                    </li>
+                    <li>AWS</li>
+                    <li>Linux</li>
+                    <li>Gradle</li>
+                    <li>Spring</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ul>
+            </nav>
+            <main>
+                <h1>Welcome to MIN塾</h1>
+                
+                <p>てすと！</p>
+
+                <div id="terminal">
+                    <div class="terminal_stoplight">
+                        <div class="terminal_stoplight red"></div>
+                        <div class="terminal_stoplight yellow"></div>
+                        <div class="terminal_stoplight green"></div>
+                    </div>   
+                    <pre class="sample_code"><!--
+                        --><br><span class="keyword">#include</span> &lt;stdio.h&gt;<!--
+                            
+                        --><br><br><span class="keyword">int</span> main(<span class="keyword">int</span> argc, <span class="keyword">char</span> *args[])<!--
+                        --><br>{<!--
+                            --><br><span class="function">printf</span>(<span class="string">"Hello, &gt; _&lt;\n"</span>);<!--
+                            --><br><span class="keyword">return 0</span>;<!--
+                        --><br>}<!-- 
+                    --></pre> 
+                </div>
+
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+                <p>てすと！</p>
+            </main>
+            <aside>
+
+            </aside>
+        </section>
+        
+        <footer>
+        </footer>
+    </div> 
+</body>
+</html>
