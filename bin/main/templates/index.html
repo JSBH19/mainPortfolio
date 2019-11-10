@@ -1,71 +1,20 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {
-    margin: 0;
-}
 
-#container {
-    display: flex;
-    flex-direction: column;
-}
-#navi {
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#navi .navi_items {
-    padding: 10px;
-}
-
-header {
-    height: 100px;
-}
-
-footer {
-    height: 150px;
-    background-color: rgb(242, 242, 242);
-}
-
-#contents {
-    display: flex;
-}
-
-#members {
-    width: 80%;
-    margin: 0 auto;
-    /* column-count: 2; */
-    column-width: 300px;
-    column-gap: 10px;
-}
-#members figure {
-    width: 300px;
-    height: 340px;
-    margin-bottom: 45px;
-    display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
-#members figure img {
-    width: 100%;
-    height: 100%;  
-}
-
-</style>
 <head>
-    <script src="favicon.js"></script>
     <title>JSBH</title>
+    <meta property="og:type" content="website"> <!-- 사이트 종류  -->
+    <meta property="og:image" content="/img/logo/jsbhLogo.jpg"> <!-- 대표 이미지*/ -->
+    <meta property="og:title" content="JSBH Profile"> <!--카드에 표시하고 싶은 제목-->
+    <meta property="og:description" content="JMJ, KEN, KSH, LKY, KHD"> <!--카드에 표시하고 싶은 사이트 설명-->
+    <meta property="og:url" content=" http://13.112.133.140/"> <!--표시하고싶은 url주소-->
+
+    <script src="/js/favicon.js"></script> <!--setting favicon-->
+    <link rel="stylesheet" href="/css/index.css"/> <!--setting css-->
 </head>
 <body>
     <div id="navi">
-        <p class="navi_items">準備中</p>
+        <p class="navi_items"><a href="/juku">MIN塾</a></p>
         <p class="navi_items">準備中</p>
         <p class="navi_items">準備中</p>
         <p class="navi_items">準備中</p>
@@ -80,19 +29,19 @@ footer {
         
             <div id="members">
                 <figure>
-                    <img src="/profile/minSen.jpeg">
+                    <img src="/img/profile/minSen.jpeg">
                 </figure>
                 <figure>
-                    <img src="/profile/shirokuma.jpeg">
+                    <img src="/img/profile/shirokuma.jpeg">
                 </figure>
                 <figure>
-                    <img src="/profile/khd.jpg">
+                    <img src="/img/profile/khd.jpg">
                 </figure>
                 <figure>
-                    <img src="/profile/lky.jpg">
+                    <img src="/img/profile/lky.jpg">
                 </figure>
                 <figure>
-                    <img src="/profile/ken.jpg">
+                    <img src="/img/profile/ken.jpg">
                 </figure>
             </div>
 

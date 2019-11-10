@@ -14,100 +14,100 @@ function favicon(){
     const appleTouchIconSize57 = document.createElement('link');
     appleTouchIconSize57.rel = 'apple-touch-icon';
     appleTouchIconSize57.sizes = '57x57';
-    appleTouchIconSize57.href = '/favicon/apple-icon-57x57.png';
+    appleTouchIconSize57.href = '/img/favicon/apple-icon-57x57.png';
     document.head.appendChild(appleTouchIconSize57);
     
     const appleTouchIconSize60 = document.createElement('link');
     appleTouchIconSize60.rel = 'apple-touch-icon';
     appleTouchIconSize60.sizes = '60x60';
-    appleTouchIconSize60.href = '/favicon/apple-icon-60x60.png';
+    appleTouchIconSize60.href = '/img/favicon/apple-icon-60x60.png';
     document.head.appendChild(appleTouchIconSize60);
     
     const appleTouchIconSize72 = document.createElement('link');
     appleTouchIconSize72.rel = 'apple-touch-icon';
     appleTouchIconSize72.sizes = '72x72';
-    appleTouchIconSize72.href = '/favicon/apple-icon-72x72.png';
+    appleTouchIconSize72.href = '/img/favicon/apple-icon-72x72.png';
     document.head.appendChild(appleTouchIconSize72);
     
     const appleTouchIconSize76 = document.createElement('link');
     appleTouchIconSize76.rel = 'apple-touch-icon';
     appleTouchIconSize76.sizes = '76x76';
-    appleTouchIconSize76.href = '/favicon/apple-icon-76x76.png';
+    appleTouchIconSize76.href = '/img/favicon/apple-icon-76x76.png';
     document.head.appendChild(appleTouchIconSize76);
     
     const appleTouchIconSize114 = document.createElement('link');
     appleTouchIconSize114.rel = 'apple-touch-icon';
     appleTouchIconSize114.sizes = '114x114';
-    appleTouchIconSize114.href = '/favicon/apple-icon-114x114.png';
+    appleTouchIconSize114.href = '/img/favicon/apple-icon-114x114.png';
     document.head.appendChild(appleTouchIconSize114);
     
     const appleTouchIconSize120 = document.createElement('link');
     appleTouchIconSize120.rel = 'apple-touch-icon';
     appleTouchIconSize120.sizes = '120x120';
-    appleTouchIconSize120.href = '/favicon/apple-icon-120x120.png';
+    appleTouchIconSize120.href = '/img/favicon/apple-icon-120x120.png';
     document.head.appendChild(appleTouchIconSize120);
     
     const appleTouchIconSize144 = document.createElement('link');
     appleTouchIconSize144.rel = 'apple-touch-icon';
     appleTouchIconSize144.sizes = '144x144';
-    appleTouchIconSize144.href = '/favicon/apple-icon-144x144.png';
+    appleTouchIconSize144.href = '/img/favicon/apple-icon-144x144.png';
     document.head.appendChild(appleTouchIconSize144);
     
     const appleTouchIconSize152 = document.createElement('link');
     appleTouchIconSize152.rel = 'apple-touch-icon';
     appleTouchIconSize152.sizes = '152x152';
-    appleTouchIconSize152.href = '/favicon/apple-icon-152x152.png';
+    appleTouchIconSize152.href = '/img/favicon/apple-icon-152x152.png';
     document.head.appendChild(appleTouchIconSize152);
     
     const appleTouchIconSize180 = document.createElement('link');
     appleTouchIconSize180.rel = 'apple-touch-icon';
     appleTouchIconSize180.sizes = '180x180';
-    appleTouchIconSize180.href = '/favicon/apple-icon-180x180.png';
+    appleTouchIconSize180.href = '/img/favicon/apple-icon-180x180.png';
     document.head.appendChild(appleTouchIconSize180);
     
     const iconSize192 = document.createElement('link');
     iconSize192.rel = 'icon';
     iconSize192.type = 'image/png';
     iconSize192.sizes = '192x192';
-    iconSize192.href = '/favicon/android-icon-192x192.png';
+    iconSize192.href = '/img/favicon/android-icon-192x192.png';
     document.head.appendChild(iconSize192);
 
     const iconSize512 = document.createElement('link');
     iconSize512.rel = 'icon';
     iconSize512.type = 'image/png';
     iconSize512.sizes = '512x512';
-    iconSize512.href = '/favicon/android-icon-512x512.png';
+    iconSize512.href = '/img/favicon/android-icon-512x512.png';
     document.head.appendChild(iconSize512);
     
     const iconSize32 = document.createElement('link');
     iconSize32.rel = 'icon';
     iconSize32.type = 'image/png';
     iconSize32.sizes = '32x32';
-    iconSize32.href = '/favicon/favicon-32x32.png';
+    iconSize32.href = '/img/favicon/favicon-32x32.png';
     document.head.appendChild(iconSize32);
     
     const iconSize96 = document.createElement('link');
     iconSize96.rel = 'icon';
     iconSize96.type = 'image/png';
     iconSize96.sizes = '96x96';
-    iconSize96.href = '/favicon/favicon-96x96.png';
+    iconSize96.href = '/img/favicon/favicon-96x96.png';
     document.head.appendChild(iconSize96);
     
     const iconSize16 = document.createElement('link');
     iconSize16.rel = 'icon';
     iconSize16.type = 'image/png';
     iconSize16.sizes = '16x16';
-    iconSize16.href = '/favicon/favicon-16x16.png';
+    iconSize16.href = '/img/favicon/favicon-16x16.png';
     document.head.appendChild(iconSize16);
     
     const manifest = document.createElement('link');
     manifest.rel = 'manifest';
-    manifest.href = '/favicon/manifest.json';
+    manifest.href = '/img/favicon/manifest.json';
     document.head.appendChild(manifest);
 
     const maskIcon = document.createElement('link');
     maskIcon.rel = 'mask-icon';
-    maskIcon.href = '/safari-pinned-tab.svg';
+    maskIcon.href = '/img/favicon/safari-pinned-tab.svg';
     maskIcon.color = '#5bbad5';
     document.head.appendChild(maskIcon);
     
@@ -118,7 +118,7 @@ function favicon(){
     
     const msapplicationTileImage = document.createElement('meta');
     msapplicationTileImage.name = 'msapplication-TileImage';
-    msapplicationTileImage.content = '/favicon/ms-icon-144x144.png';
+    msapplicationTileImage.content = '/img/favicon/ms-icon-144x144.png';
     document.head.appendChild(msapplicationTileImage);
     
     const themeColor = document.createElement('meta');
@@ -133,22 +133,22 @@ favicon();
 //link list for favicon
 /* <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512"  href="/favicon/android-icon-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="/img/favicon/android-icon-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> */
