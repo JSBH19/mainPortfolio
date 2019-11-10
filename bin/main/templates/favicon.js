@@ -1,4 +1,4 @@
-window.onload = function(){
+function favicon(){
     const shortcutIicon = document.createElement('link');
     shortcutIicon.rel = 'shortcut icon';
     shortcutIicon.type = 'image/x-icon';
@@ -71,6 +71,13 @@ window.onload = function(){
     iconSize192.sizes = '192x192';
     iconSize192.href = '/favicon/android-icon-192x192.png';
     document.head.appendChild(iconSize192);
+
+    const iconSize512 = document.createElement('link');
+    iconSize512.rel = 'icon';
+    iconSize512.type = 'image/png';
+    iconSize512.sizes = '512x512';
+    iconSize512.href = '/favicon/android-icon-512x512.png';
+    document.head.appendChild(iconSize512);
     
     const iconSize32 = document.createElement('link');
     iconSize32.rel = 'icon';
@@ -97,10 +104,16 @@ window.onload = function(){
     manifest.rel = 'manifest';
     manifest.href = '/favicon/manifest.json';
     document.head.appendChild(manifest);
+
+    const maskIcon = document.createElement('link');
+    maskIcon.rel = 'mask-icon';
+    maskIcon.href = '/safari-pinned-tab.svg';
+    maskIcon.color = '#5bbad5';
+    document.head.appendChild(maskIcon);
     
     const msapplicationTileColor = document.createElement('meta');
     msapplicationTileColor.name = 'msapplication-TileColor';
-    msapplicationTileColor.content = '#ffffff';
+    msapplicationTileColor.content = '#da532c';
     document.head.appendChild(msapplicationTileColor);
     
     const msapplicationTileImage = document.createElement('meta');
@@ -113,6 +126,9 @@ window.onload = function(){
     themeColor.content = '#ffffff';
     document.head.appendChild(themeColor);
 }
+
+favicon();
+
 
 //link list for favicon
 /* <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -127,10 +143,12 @@ window.onload = function(){
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="/favicon/android-icon-512x512.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> */
