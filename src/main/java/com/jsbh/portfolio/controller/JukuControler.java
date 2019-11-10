@@ -12,7 +12,6 @@ public class JukuControler {
     @RequestMapping("/juku")
     public String goToJuku() {
         
-        System.out.println("zzzz");
         return "juku";
     }
 }
